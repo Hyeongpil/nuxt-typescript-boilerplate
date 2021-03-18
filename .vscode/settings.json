@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+  },
+  "tsimporter.emitSemicolon": false,
+  "typescriptHero.imports.insertSemicolons": false,
+
+  "editor.foldingStrategy": "indentation",
+
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+
+  "nuxt-typescript-snippets.enable": true,
+}

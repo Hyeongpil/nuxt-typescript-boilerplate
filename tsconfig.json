@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "esnext",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "lib": [
+      "esnext",
+      "esnext.asynciterable",
+      "dom"
+    ],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "declaration": true, // lib 만들 때 .d.ts 파일을 자동으로
+    "declarationDir": "./types", // 이 폴더에 만들어주는 옵션
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": [
+        "./*"
+      ],
+    },
+    "typeRoots": [
+      "./types",
+      "./node_modules/@types"
+    ],
+    "types": [
+      "@types/node",
+      "@nuxt/types"
+    ]
+  },
+  "exclude": [
+    ".nuxt",
+    "dist"
+  ]
+}
